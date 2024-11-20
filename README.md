@@ -1,6 +1,6 @@
 # googlecppformater README by Цветков Иван M3103
 
-This VSCode extension created for convering functions names int different formats.
+This VSCode extension created for convering functions names in different formats.
 
 ## Functional
 Convert from snake_case to CamelCase - converting snake_case funcs names to CamelCase.
