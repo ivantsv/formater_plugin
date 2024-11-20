@@ -1,0 +1,33 @@
+{
+  "name": "quick-note-taker",
+  "displayName": "Quick Note Taker",
+  "description": "A VS Code extension for formatting and converting code",
+  "version": "0.0.1",
+  "publisher": "YourName",
+  "engines": {
+    "vscode": "^1.64.0"
+  },
+  "main": "./dist/extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.convertSnakeToCamel",
+        "title": "Convert from snake_case to CamelCase"
+      },
+      {
+        "command": "extension.convertCamelToSnake",
+        "title": "Convert from CamelCase to snake_case"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "dependencies": {
+    "vscode": "^1.64.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.0"
+  }
+}
